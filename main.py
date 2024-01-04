@@ -2,8 +2,6 @@ from fastapi import FastAPI, Query
 from fastapi.responses import HTMLResponse
 
 import importlib
-import pyarrow.parquet as pq
-
 
 
 # Se instancia la aplicación
