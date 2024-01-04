@@ -2,7 +2,6 @@ from fastapi import FastAPI, Query
 from fastapi.responses import HTMLResponse
 
 import importlib
-import pyarrow as pa
 import pyarrow.parquet as pq
 
 
