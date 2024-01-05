@@ -2,7 +2,8 @@ from fastapi import FastAPI, Query
 from fastapi.responses import HTMLResponse
 import pandas as pd
 import importlib
-import pyarrow fastparquet
+import pyarrow
+import fastparquet
 
 
 # Usar dataframes desde parquet (consultas)
