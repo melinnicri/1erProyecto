@@ -39,9 +39,9 @@ En el dataset user_reviews se incluyen reseñas de juegos hechos por distintos u
 Propones disponibilizar los datos de la empresa usando el framework FastAPI.
 
 Los 3 archivos originales se encuentran en “DataBase”, como también el diccionario de datos (items está en [Drive](https://drive.google.com/file/d/1RjeZFwJ00dQ1Kt99STR8KOYtnTTyVqkj/view?usp=drive_link))
-1) ["games.ipynb"]([https://github.com/melinnicri/1erProyecto/blob/main/games.ipynb]) guarda [First_Game_genres.csv]([https://github.com/melinnicri/1erProyecto/blob/main/First_Game_genres.csv]) y [First_Game_tags.csv]([https://github.com/melinnicri/1erProyecto/blob/main/First_Game_tags.csv])
-2) [items.ipynb]([https://github.com/melinnicri/1erProyecto/blob/main/items.ipynb]) guarda Third_Users.csv [Drive](https://drive.google.com/drive/folders/1by8sjGzQGZSmVgVA7kMcuJH0QTlOE2kt?usp=drive_link)
-3) [reviews.ipynb]([https://github.com/melinnicri/1erProyecto/blob/main/reviews.ipynb]) guarda [Second_Reviews.csv]([https://github.com/melinnicri/1erProyecto/blob/main/Second_Reviews.csv])
+1) ["games.ipynb"](https://github.com/melinnicri/1erProyecto/blob/main/games.ipynb) guarda ["First_Game_genres.csv"](https://github.com/melinnicri/1erProyecto/blob/main/First_Game_genres.csv) y ["First_Game_tags.csv"](https://github.com/melinnicri/1erProyecto/blob/main/First_Game_tags.csv)
+2) ["items.ipynb"](https://github.com/melinnicri/1erProyecto/blob/main/items.ipynb) guarda ["Third_Users.csv"](https://drive.google.com/drive/folders/1by8sjGzQGZSmVgVA7kMcuJH0QTlOE2kt?usp=drive_link)
+3) ["reviews.ipynb"](https://github.com/melinnicri/1erProyecto/blob/main/reviews.ipynb) guarda ["Second_Reviews.csv"](https://github.com/melinnicri/1erProyecto/blob/main/Second_Reviews.csv)
 
 ## Para armar las consultas, se hicieron las nuevas dataframes desde:
 - tags.ipynb abre First_Game_tags.csv y lo guarda como First_Game_destag.csv
