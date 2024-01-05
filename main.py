@@ -3,6 +3,22 @@ from fastapi.responses import HTMLResponse
 
 import importlib
 
+# Usar dataframes desde parquet (consultas)
+genres_year_playtime = pd.read_parquet('genres_year_playtime.parquet')
+max_playtime_by_genre_year= pd.read_parquet('max_playtime_by_genre_year.parquet')
+user_year_playtime = pd.read_parquet('user_year_playtime.parquet')
+year_recommend_game = pd.read_parquet('year_recommend_game.parquet')
+top3_recomendados = pd.read_parquet('top3_recomendados.parquet')
+top3_no_recomendados = pd.read_parquet('top3_no_recomendados.parquet')
+developer_sentiment = pd.read_parquet('developer_sentiment.parquet')
+
+# Usar dataframes desde parquet (recomendación)
+unique_item_ids = pd.read_parquet('unique_item_ids.parquet')
+user_name_time = pd.read_parquet('user_name_time.parquet')
+piv_table_norm = pd.read_parquet('piv_table_norm.parquet')
+df_item_simil = pd.read_parquet('df_item_simil.parquet')
+df_user_simil = pd.read_parquet('df_user_simil.parquet')
+
 
 # Se instancia la aplicación
 app = FastAPI(title="PROYECTO INDIVIDUAL Nº1 - Machine Learning Operations (MLOps) - Amelia Herrera Briceño - melinnicri@gmail.com",
