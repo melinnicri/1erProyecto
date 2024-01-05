@@ -3,6 +3,8 @@ from fastapi.responses import HTMLResponse
 import pandas as pd
 import importlib
 import numpy as np
+import pyarrow
+import fastparquet
 import parquet
 
 
