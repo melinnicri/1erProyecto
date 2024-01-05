@@ -19,7 +19,8 @@ Se debe empezar desde cero y obtener finalmente un Producto viable mínimo MVP (
 
 
 <p align="center"><img src="https://github.com/melinnicri/1erProyecto/blob/main/images/DiagramaConceptualDelFlujoDeProcesos.png"></p>
-Imagen del proceso de transformación de los datos hacia el modelo de ML:
+<br/> <b>Imagen del proceso de transformación de los datos hacia el modelo de ML:</b>
+  </span></p>
 
 
 ## Propuesta de trabajo (requerimientos de aprobación):
