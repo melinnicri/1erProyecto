@@ -2,7 +2,6 @@ from fastapi import FastAPI, Query
 from fastapi.responses import HTMLResponse
 import pandas as pd
 import importlib
-import ParquetFile
 import numpy as np
 import pyarrow
 import fastparquet
