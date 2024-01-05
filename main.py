@@ -2,6 +2,8 @@ from fastapi import FastAPI, Query
 from fastapi.responses import HTMLResponse
 import pandas as pd
 import importlib
+import pyarrow fastparquet
+
 
 # Usar dataframes desde parquet (consultas)
 genres_year_playtime = pd.read_parquet('genres_year_playtime.parquet')
