@@ -4,3 +4,5 @@ pandas
 uvicorn
 importlib
 parquet
+pyarrow
+fastparquet
