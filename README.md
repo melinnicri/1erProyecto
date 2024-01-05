@@ -44,9 +44,9 @@ Los 3 archivos originales se encuentran en “DataBase”, como también el dicc
 3) ["reviews.ipynb"](https://github.com/melinnicri/1erProyecto/blob/main/reviews.ipynb) guarda ["Second_Reviews.csv"](https://github.com/melinnicri/1erProyecto/blob/main/Second_Reviews.csv)
 
 ## Para armar las consultas, se hicieron las nuevas dataframes desde:
-- tags.ipynb abre First_Game_tags.csv y lo guarda como First_Game_destag.csv
-- Desa_tag.ipynb abre First_Game_desTag.csv y lo guarda como First_Game_desanidadoTag.csv
-- Consultas.ipynb abre First_Game_genres.csv, Third_Users.csv, First_Game_tags.csv, First_Game_desanidadoTag.csv y Second_Reviews.csv
+- ["tags.ipynb"](https://github.com/melinnicri/1erProyecto/blob/main/tags.ipynb) abre ["First_Game_tags.csv"](https://github.com/melinnicri/1erProyecto/blob/main/First_Game_tags.csv) y lo guarda como ["First_Game_destag.csv"](https://github.com/melinnicri/1erProyecto/blob/main/First_Game_desTag.csv)
+- ["Desa_tag.ipynb"](https://github.com/melinnicri/1erProyecto/blob/main/Desa_tag.ipynb) abre ["First_Game_desTag.csv"](https://github.com/melinnicri/1erProyecto/blob/main/First_Game_desTag.csv) y lo guarda como ["First_Game_desanidadoTag.csv"](https://github.com/melinnicri/1erProyecto/blob/main/First_Game_desanidadoTag.csv)
+- ["Consultas.ipynb"](https://github.com/melinnicri/1erProyecto/blob/main/Consultas.ipynb) abre ["First_Game_genres.csv"](https://github.com/melinnicri/1erProyecto/blob/main/First_Game_genres.csv), ["Third_Users.csv"](https://drive.google.com/drive/folders/1by8sjGzQGZSmVgVA7kMcuJH0QTlOE2kt?usp=drive_link), ["First_Game_tags.csv"](https://github.com/melinnicri/1erProyecto/blob/main/First_Game_tags.csv), ["First_Game_desanidadoTag.csv"](https://github.com/melinnicri/1erProyecto/blob/main/First_Game_desanidadoTag.csv) y ["Second_Reviews.csv"](https://github.com/melinnicri/1erProyecto/blob/main/Second_Reviews.csv)
 
 ## Las consultas que propones son las siguientes:
 - def PlayTimeGenre(genero: str): Debe devolver año con más horas jugadas para dicho género.
@@ -73,7 +73,7 @@ Ya los datos están limpios, ahora es tiempo de investigar las relaciones que ha
 ## Modelo de aprendizaje automático:
 Una vez que toda la data es consumible por la API, está lista para consumir por los departamentos de Analytics y Machine Learning, y nuestro EDA nos permite entender bien los datos a los que tenemos acceso, es hora de entrenar nuestro modelo de machine learning para armar un sistema de recomendación. Para ello, te ofrecen dos propuestas de trabajo: En la primera, el modelo deberá tener una relación ítem-ítem, esto es se toma un item, en base a que tan similar esa ese ítem al resto, se recomiendan similares. Aquí el input es un juego y el output es una lista de juegos recomendados, para ello recomendamos aplicar la similitud del coseno. La otra propuesta para el sistema de recomendación debe aplicar el filtro user-item, esto es tomar un usuario, se encuentran usuarios similares y se recomiendan ítems que a esos usuarios similares les gustaron. En este caso el input es un usuario y el output es una lista de juegos que se le recomienda a ese usuario, en general se explican como “A usuarios que son similares a tí también les gustó…”. Deben crear al menos uno de los dos sistemas de recomendación (Si se atreven a tomar el desafío, para mostrar su capacidad al equipo, ¡pueden hacer ambos!). Tu líder pide que el modelo derive obligatoriamente en un GET/POST en la API símil al siguiente formato:
 
-- Archivo: ML.ipynb abre Third_Users.csv
+- Archivo: ["ML.ipynb"](https://github.com/melinnicri/1erProyecto/blob/main/ML.ipynb) abre ["Third_Users.csv"](https://drive.google.com/drive/folders/1by8sjGzQGZSmVgVA7kMcuJH0QTlOE2kt?usp=drive_link)
 
 Si es un sistema de recomendación item-item:
 - def recomendacion_juego(id de producto): Ingresando el id de producto, deberíamos recibir una lista con 5 juegos recomendados similares al ingresado. 
