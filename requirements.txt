@@ -6,3 +6,5 @@ importlib
 parquet
 pyarrow
 fastparquet
+operator
+sklearn
