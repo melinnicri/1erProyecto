@@ -199,6 +199,6 @@ def similar_user_recs(user):
                 most_common[j] = 1
 
     # Se ordenan los juegos de mayor recomendacion
-    sorted_list = sorted(most_common.items(), key=operator.itemgetter(1), reverse=True)
+    sorted_list = sorted(most_common.items(), key=lambda x: x[1], reverse=True)
 
     return dict(sorted_list[:5])
